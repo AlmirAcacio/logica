@@ -2,9 +2,9 @@ programa
 {
    funcao inicio()
    {
-      inteiro ano_nascimento = 0                   // Definição da variável ano_nascimento, que receberá um valor inteiro, a ser digitado pelo usuário a partir de uma instrução de entrada.
+      inteiro ano_nascimento = 0                                       // Definição da variável ano_nascimento, que receberá um valor inteiro, a ser digitado pelo usuário a partir de uma instrução de entrada.
                                                       
-      const inteiro ANO_FUTURO = 2035                    // Definição da constante ano_futuro, que também recebe um valor inteiro: 2035. Esse valor não pode ser modificado.
+      const inteiro ANO_FUTURO = 2035                                 // Definição da constante ano_futuro, que também recebe um valor inteiro: 2035. Este valor não pode ser modificado.
 
       cadeia apresentacao = "Sua idade em " + ANO_FUTURO             /* Definição da variável apresentação, que será a apresentação do programa, e recebe um valor em cadeia (string), em concatenação
                                                                         com a constante ANO_FUTURO. */
@@ -20,7 +20,7 @@ programa
       escreva("\nEm ",  ANO_FUTURO,  ", você terá ", resultado, " anos de idade.\n")       /* Instrução de retorno do resultado, concatenada com a variável ano_futuro e o resultado da expressão armazenada 
                                                                                                 na variável de mesmo nome. */
       
-      escreva("\n==========|| ", "FIM DO PROGRAMA", " ||============")        // Instrução de retorno final do programa no console, com a mesma formatação da apresentação.
+      escreva("\n==========|| ", "FIM DO PROGRAMA", " ||============\n")        // Instrução de retorno final do programa no console, com a mesma formatação da apresentação.
    }
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2130; 
+ * @POSICAO-CURSOR = 484; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

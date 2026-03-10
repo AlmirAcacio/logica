@@ -45,7 +45,7 @@ programa   // Definição do programa.
 	  leia(doador)
 
 	  escreva("\n==========| " + NOMEPROGRAMA + " |===========")    /* A constante NOMEPROGRAMA nesta instrução está sendo concatenada através do sinal de mais (+), junto com uma cadeia de formatação
-	                                                                           de 10 iguais e uma linha horizontal ao redor. */
+	                                                                   de 10 iguais e uma linha horizontal ao redor. */
        escreva("\n ")
 	  escreva("\nNome Completo: " + nome + " " + sobrenome)
 	  escreva("\nIdade: " + idade)
@@ -64,7 +64,7 @@ programa   // Definição do programa.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2630; 
+ * @POSICAO-CURSOR = 3156; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

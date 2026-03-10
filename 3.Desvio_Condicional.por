@@ -1,6 +1,6 @@
-programa     // Definição do programa.
+programa     // Definição do programa.
 {
-   funcao inicio()    //Definição da função.
+   funcao inicio()    //Definição da função.
    {
       const cadeia NOMEPROGRAMA = "Calculadora IMC"             /* Variável const (constante) que é definida por uma cadeia (ou string) e não pode ser modificada. Cadeias são acompanhadas de aspas duplas.
 	                                                              O nome de uma constante deve ser totalmente em letra maiúscula. */
@@ -39,10 +39,10 @@ programa     // Definição do programa.
        
       escreva("\nIMC: " + imc)
 
-      se(imc <= 18.5) 
+      se(imc < 18.5) 
         escreva("\nClassificação: Abaixo do peso ideal, com magreza.")
         
-      senao se(imc > 18.5 e imc <= 24.9) 
+      senao se(imc >= 18.5 e imc <= 24.9) 
         escreva("\nClassificação: Dentro do peso ideal!")
 
       senao se(imc >= 25.0 e imc <= 29.9) 
@@ -59,7 +59,7 @@ programa     // Definição do programa.
 
         /* A partir daqui, as linhas abaixo representam os desvios de escolha de caso do código, que também auxiliam nas tomadas de decisão do programa.
            Dentre todas as condições descritas abaixo, se o valor do nível de stress cumprir com uma delas, a respectiva instrução correspondente ao caso irá ser executada no console.
-           En seguida, a instrução pare será executada, finalizando o programa. */
+           Em seguida, a instrução pare será executada, finalizando o programa. */
 
       escolha(stress) {
         caso 1: escreva("\nNível de Stress: Baixo")
@@ -81,7 +81,7 @@ programa     // Definição do programa.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1610; 
+ * @POSICAO-CURSOR = 3590; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
