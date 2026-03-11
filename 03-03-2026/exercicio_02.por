@@ -52,7 +52,7 @@ programa
       senao
       {
          escreva("\nValor de caractere inválido.\n")            /* Senão, se o valor do caractere digitado em sim_ou_nao não corresponder a 's', 'S', 'n' ou 'N', o console retornará como valor de
-                                                                   caracter inválido e definirá o valro da variável gestante como falso. */
+                                                                   caracter inválido e definirá o valor da variável gestante como falso. */
          deficiente_fisico = falso	
       }
 
@@ -80,7 +80,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1420; 
+ * @POSICAO-CURSOR = 3948; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

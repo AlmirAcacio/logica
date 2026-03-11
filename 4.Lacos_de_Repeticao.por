@@ -1,10 +1,10 @@
 programa
 {
-   inclua biblioteca Util                                // Inclusão da biblioteca Util no código do programa.
+   inclua biblioteca Util                                // Inclusão da biblioteca Util no código do programa.
 	
    funcao inicio()
    {
-   	const inteiro TAMANHO = 10                          // Definição da constante TAMANHO, que recebe como valor um número inteiro. No caso, o número 2.
+   	const inteiro TAMANHO = 10                          // Definição da constante TAMANHO, que recebe como valor um número inteiro. No caso, o número 10.
    	inteiro contador = TAMANHO                          // Definição da variável contador, que armazena a constante TAMANHO.
    	
    	
@@ -14,7 +14,7 @@ programa
    	   escreva("Contagem Regressiva (com FAÇA): ", contador)         // Retorna no console uma contagem regressiva a partir do valor da variável contador no console.
 
    	   contador = contador -1                              /* Redefinição da variável contador para contador -1, que subtrai o valor da mesma por 1 sucessivamente, em um loop infinito.
-   	                                                          No caso, a variável contador, que igual a 10 será subtraída por 1, resultando em 9, depois subtrairá mais uma vez, resultando em 8, 
+   	                                                          No caso, a variável contador, que é igual a 10, será subtraída por 1, resultando em 9; depois subtrairá mais uma vez, resultando em 8, 
    	                                                          e assim por diante. */  
    	   
    	   Util.aguarde(1000)	                              // Definição da função Util.aguarde, pertencente à biblioteca Util, recebe como parâmetro um número em milissegundos. (1000 milissegundos = 1 segundo).
@@ -37,7 +37,7 @@ programa
 
      para(contador; contador >= 0; contador = contador -1)           /*  Instrução para, que consiste em definir a variável contador para realizar a contagem outra vez, com as mesmas condições das outras, mas
                                                                          com um diferencial apenas na estrutura, pois todas as condições estão sendo dadas imediatamente na instrução: para a variável contador,
-                                                                         se a mesma for maior ou igual a zero e subtraíndo por 1 a cada 1000 milissegundos, com a instrução Util.  */    
+                                                                         se a mesma for maior ou igual a zero e subtraíndo por 1 a cada 1000 milissegundos, com a instrução Util.aguarde. */    
      {
         limpa()
         escreva("Contagem Regressiva (com PARA): ", contador)
@@ -50,7 +50,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3688; 
+ * @POSICAO-CURSOR = 3555; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
