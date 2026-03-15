@@ -7,7 +7,7 @@ programa
       cadeia apresentacao = "Cálculo do IMC (Índice de Massa Corporal)"               // Definição da variável apresentacao, que será o título do programa.
       cadeia fim = "FIM DO PROGRAMA" 								          // Definição da variável fim, que será o final do programa.
 
-      escreva("==========|| ", apresentacao, " ||==========\n")               // Instrução de entrada da apresentação do programa, com a formatação padrão, concatenada com a variável apresentacao.
+      escreva("==========|| ", apresentacao, " ||==========\n")               // Instrução de retorno da apresentação do programa, com a formatação padrão, concatenada com a variável apresentacao.
 
       escreva("\nDigite seu peso em quilogramas (kg): ")                     // Instrução de entrada que irá receber o valor do peso, em quilogramas (kg).
       leia(peso)												 // Instrução de leitura do valor do peso digitado pelo usuário.
@@ -54,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3445; 
+ * @POSICAO-CURSOR = 549; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

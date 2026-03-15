@@ -10,7 +10,7 @@ programa
       cadeia apresentacao = "Calculadora Simples"						    // Definição da variável apresentacao, que será o título do programa.
       cadeia fim = "FIM DO PROGRAMA"								    // Definição da variável fim, que será o final do programa.
       
-      escreva("================|| ", apresentacao, " ||===============\n")     // Instrução de entrada da apresentação do programa, com a formatação padrão, concatenada com a variável apresentacao.
+      escreva("================|| ", apresentacao, " ||===============\n")     // Instrução de retorno da apresentação do programa, com a formatação padrão, concatenada com a variável apresentacao.
       
       escreva("\nDigite o primeiro número: ")                   // Instrução de entrada do primeiro número pelo usuário.
       leia(numero_um)								   //  Instrução de leitura do valor do primeiro número digitado pelo usuário.
@@ -60,7 +60,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 4069; 
+ * @POSICAO-CURSOR = 768; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
